@@ -1,0 +1,43 @@
+.father{
+    background: white;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    color: white;
+}
+.child1 {
+    background:#2269bb;
+    height: 200px;
+    display: flex;
+    text-align: center;
+justify-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-end;
+
+
+}
+.child2{
+    background:white;
+    height: 200px;
+    display: flex;
+
+
+}
+.child3{
+    background: #2269bb;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.classa{
+    background:#16457a;
+    width:300px;
+    display: flex;
+    margin:6px;
+    justify-content: space-around;
+    align-items: center;
+}
