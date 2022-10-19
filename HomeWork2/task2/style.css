@@ -1,0 +1,54 @@
+.father{
+    background:white;
+    height: 400px;
+    display: flex;
+
+}
+.child1{
+    background: white;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin: 50px 20px 20px 5px;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.child2{
+    background:white;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin: 50px 20px 20px 5px;
+    border:1px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+
+}
+
+.child3{
+    background: white;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin: 50px 20px 20px 5px;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+
+}
+.zaholovok
+{
+    font-weight: 500;
+    font-family: system-ui;
+    font-size: x-large;
+}
+}
