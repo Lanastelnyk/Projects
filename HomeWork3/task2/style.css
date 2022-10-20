@@ -1,0 +1,52 @@
+.parent{
+    width: 600px;
+    height: 400px;
+    background: lightsteelblue;
+    display: flex;
+    flex-direction: column;
+
+}
+ .blok{
+     width: 600px;
+     height: 200px;
+     background: #0f2c65;
+    margin-top: 40px;
+     display: flex;
+     justify-content: center;
+ }
+ .square{
+     width: 100px;
+     height: 100px;
+     background: darkslateblue;
+     margin: 20px;
+     display: flex;
+     position: relative;
+     top: 135px;
+     border-radius:10px;
+ }
+ .rectangle{
+     width: 100px;
+     height: 30px;
+     background: #0f2c65;
+     margin-top: 10px;
+     margin-left: 40px;
+     border-radius: 10px;
+ }
+ .icon{
+     width: 20px;
+     height: 20px;
+     display: flex;
+     margin-left: 450px;
+     font-size: 40px;
+     rotate: -35deg;
+ }
+.icon2{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin-left: 500px;
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+
