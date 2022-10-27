@@ -1,0 +1,35 @@
+.father{
+    height:600px;
+    background: silver;
+    /*display: flex;*/
+}
+.child1{
+    height: 100px;
+   border: 1px solid white;
+    background: lightsteelblue;
+
+
+}
+.child2{
+    display: flex;
+    flex-direction: row;
+}
+.child3{
+    width: 70%;
+    height:500px;
+    border: 1px solid white;
+    background: lightsteelblue;
+}
+.child4{
+    width: 30%;
+    height:500px;
+    border: 1px solid white;
+    background: lightsteelblue;
+}
+@media screen and (min-width: 0) and (max-width: 600px) {
+    .child2{
+        display: flex;
+        flex-direction: column;
+    }
+    .child3,.child4{width: 100%}
+}
