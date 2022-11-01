@@ -6,7 +6,7 @@
     flex-direction: column;
 
 }
-.bloc1{
+.block1{
     width: 100%;
     height: 200px;
     border: 1px solid white;
@@ -17,7 +17,7 @@
     align-items: center;
     font-size: xx-large;
 }
-.bloc2{
+.block2{
     width: 70%;
     height: 400px;
     border: 1px solid white;
@@ -27,7 +27,7 @@
     background: gray;
 }
 
-.bloc2-1{
+.block2-1{
     width: 100%;
     height: 200px;
     border: 1px solid white;
@@ -40,7 +40,7 @@
 }
 
 
-.bloc2-2{
+.block2-2{
     width: 100%;
     height: 200px;
     border: 1px solid white;
@@ -60,7 +60,7 @@
 
 }
 
-.bloc3{
+.block3{
     width: 30%;
     height: 400px;
     box-sizing: border-box;
@@ -74,14 +74,15 @@
 .wrapper{
     display: flex;
 }
-@media screen and(min-width: 0) and (max-width: 600px){
+@media screen and (min-width: 0) and (max-width: 600px){
     .wrapper{
       flex-direction: column;
     }
-.bloc2{
-    width: 100%;
-}
-.bloc3{
-    width: 100%;
-}
+    .block2{
+        width: 100%;
+    }
+    .block3{
+        width: 100%;
+        height: 200px;
+    }
 }
